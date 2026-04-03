@@ -10,8 +10,7 @@ import { SnapshotsPage } from '../features/snapshots/SnapshotsPage';
 import { ExportPage } from '../features/export/ExportPage';
 import { ExtensionsPage } from '../features/extensions/ExtensionsPage';
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const router: any = createBrowserRouter([
+export const router: ReturnType<typeof createBrowserRouter> = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
