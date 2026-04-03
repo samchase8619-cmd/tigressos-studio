@@ -1,0 +1,2 @@
+// Objects repository stub.
+export {};

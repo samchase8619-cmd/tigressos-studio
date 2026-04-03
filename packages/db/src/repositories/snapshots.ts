@@ -1,0 +1,2 @@
+// Snapshots repository stub.
+export {};
