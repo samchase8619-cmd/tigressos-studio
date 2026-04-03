@@ -1,0 +1,2 @@
+// Extensions repository stub.
+export {};

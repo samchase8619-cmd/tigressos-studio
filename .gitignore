@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.turbo/
+*.local
+.env
+.DS_Store
+target/
+src-tauri/target/
+*.tigresspack
